@@ -35,3 +35,6 @@ user_fee_token_deployer:    0x2AC5278D230f88B481bBE4A94751d7188ef48Ca2
 
 While not a named account, 0x3f1eae7d46d88f08fc2f8ed27fcb2ab183eb2d0e is funded on all test chains.
 
+## Reference :
+
+- [default-endpoints-and-addresses](https://docs.arbitrum.io/run-arbitrum-node/run-local-dev-node#default-endpoints-and-addresses) 
