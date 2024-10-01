@@ -19,6 +19,13 @@ async function writeAccounts() {
 }
 
 function specialAccount(index: number): ethers.Wallet {
+  if (index === 5) {
+    // Use a custom private key for l2owner (account index 5)
+    const customPrivateKey = ""; // Replace with the actual private key
+    return new ethers.Wallet(customPrivateKey);
+  }
+
+  // For other accounts, use the mnemonic-based wallet generation
   return ethers.Wallet.fromMnemonic(
     consts.l1mnemonic,
     "m/44'/60'/0'/0/" + index
